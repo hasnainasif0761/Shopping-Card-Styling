@@ -95,7 +95,7 @@ body
     top: 0;
     background: #111111d0;
     transform: scaleX(0%);
-    transform-origin: left;
+    transform-origin:left;
     transition: 0.5s ease;
 }
 .second-card-container:hover   .second-card-content {
@@ -184,7 +184,7 @@ p {
   margin: 12px;
   text-decoration: none;
   z-index: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 
   &:before {
     content: "";
