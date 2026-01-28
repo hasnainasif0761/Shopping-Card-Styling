@@ -74,6 +74,7 @@ body
     margin: 20px;
     border-radius: 10px;
     position: relative;
+    overflow: hidden    ;
 }
 .second-card-img
 {
@@ -97,6 +98,30 @@ body
     transform-origin: left;
     transition: 0.5s ease;
 }
-.second-card-img:hover +  .second-card-content {
+.second-card-container:hover   .second-card-content {
     transform: scaleX(1);
 }
+.icon-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: translateY(150%);
+}
+ .icons
+ {
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .icons:hover
+ {
+    background: rgb(33, 142, 6);
+    color: white;
+    cursor: pointer;
+ }
