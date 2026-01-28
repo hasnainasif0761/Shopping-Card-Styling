@@ -130,8 +130,8 @@ body
 /* Third Section Card */
 .container
 {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -144,5 +144,15 @@ h3 {
   line-height: 24px;
   font-weight: 700;
   margin-bottom: 4px;
+}
+p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+
+  &.small {
+    font-size: 14px;
+  }
 }
 
